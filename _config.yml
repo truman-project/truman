@@ -1,0 +1,41 @@
+name: "TRUMAN Project"
+title: "TRUMAN"
+title_separator: "-"
+subtitle: "Trustworthy Human-Centric Artificial Intelligence"
+description: >- # this means to ignore newlines until "baseurl:"
+  Website of the TRUMAN EU Project.
+minimal_mistakes_skin: default
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# TZ needed?
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-include-cache
+
+footer:
+  links:
+    - label: "X"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/TrumanEuHorizon"
+#    - label: "Privacy Policy"
+#      url: "/privacy_policy/"
+
+
+atom_feed:
+  hide: true
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false

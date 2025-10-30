@@ -1,2 +1,2 @@
-# truman.github.io
+# truman-project.github.io
 TRUMAN Project
