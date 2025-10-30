@@ -12,7 +12,7 @@ logos:
     title: "TRUMAN Project Logo"
 ---
 
-## Welcome to the new website of the TRUMAN Project
+## Welcome to the website of the TRUMAN Project
 This website is currently under construction and does not contain any valuable information. Please come back later!
 
 
